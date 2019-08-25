@@ -2,7 +2,7 @@ package com.hy.gateway;
 
 import com.hy.model.cognition.Judge;
 import com.hy.model.cognition.Pixel;
-import com.hy.service.Login;
+//import com.hy.service.Login;
 import com.hy.service.WinTab;
 import com.hy.service.Zero;
 import com.hy.utils.Common;
@@ -73,7 +73,7 @@ public class InputConfigHook implements Runnable {
         new Thread(winTab).start(); // 窗口切换
         zero = new Zero();
         new Thread(zero).start(); // 脚本
-        new Thread(new Login()).start(); // 自动登录
+//        new Thread(new Login()).start(); // 自动登录
         setHookOn();
     }
 

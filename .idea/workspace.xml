@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db324e7f-1bfd-489d-a2d8-b28479c50822" name="Default" comment="" />
+    <list default="true" id="db324e7f-1bfd-489d-a2d8-b28479c50822" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/config/Config$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/config/Config$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/cognition/Pixel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/model/cognition/Pixel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/Zero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/service/Zero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/other/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/utils/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/utils/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/utils/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/utils/FileIO.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,29 +30,77 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InputConfigHook.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java">
+      <file leaf-file-name="Zero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="501">
+              <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setHookOn#0;class#ConfigHook#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pixel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Pixel.java">
+      <file leaf-file-name="WinTab.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="207">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileIO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MouseInfo3_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="168" column="40" lean-forward="true" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="winTab.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winTab.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="WinDef.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinDef.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="504" column="36" selection-start-line="504" selection-start-column="25" selection-end-line="504" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -70,6 +138,7 @@
       <find>Judge</find>
       <find>ByteArrayOutputStream</find>
       <find>readTxtFile</find>
+      <find>toRectangle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -79,13 +148,15 @@
       <replace>&quot;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/src/com/hy/utils/Common.java" />
         <option value="$PROJECT_DIR$/src/main/java/src/com/hy/utils/Common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Sqrt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Square.java" />
@@ -93,10 +164,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/ScreenCaptureUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/service/other/Skilled.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/ComponentKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/CommonKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Mouse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/JsonUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/Pixel.java" />
@@ -112,11 +181,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Cognition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/HyModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/config/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/gateway/ConfigHook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Pixel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/Login.java" />
+        <option value="$PROJECT_DIR$/ifYesXY.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" />
       </list>
     </option>
   </component>
@@ -129,7 +204,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="F:\gitup\repository" />
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
@@ -144,17 +218,25 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Hy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Hy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="407" />
     <option name="y" value="37" />
     <option name="width" value="1282" />
     <option name="height" value="918" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -202,35 +284,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="cognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
@@ -264,14 +318,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/backend" />
+    <property name="last_opened_file_path" value="D:/work/game_heroSkilled" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -281,10 +335,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hy.gateway" />
       <recent name="com.hy.utils" />
+      <recent name="com.hy.gateway" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Hy" />
       <recent name="F:\gitup\Hy\src\main\java" />
       <recent name="F:\gitup\Hy\src\main\java\com\hy" />
     </key>
@@ -301,20 +356,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileIO">
+  <component name="RunManager" selected="Application.WinTab">
     <configuration name="Common" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hy.utils.Common" />
-      <module name="Hy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hy.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CommonKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hy.utils.CommonKey" />
       <module name="Hy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -335,19 +379,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Mouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hy.utils.Mouse" />
+    <configuration name="MouseInfo3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.service.MouseInfo3_1" />
       <module name="Hy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hy.utils.*" />
+          <option name="PATTERN" value="com.hy.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MouseInfo3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hy.service.MouseInfo3_1" />
+    <configuration name="WinTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.service.WinTab" />
+      <module name="Hy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.service.Zero" />
       <module name="Hy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -399,19 +454,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CommonKey" />
-      <item itemvalue="Application.Mouse" />
       <item itemvalue="Application.MouseInfo3_1" />
       <item itemvalue="Application.Common" />
       <item itemvalue="Application.FileIO" />
+      <item itemvalue="Application.Zero" />
+      <item itemvalue="Application.WinTab" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WinTab" />
+        <item itemvalue="Application.MouseInfo3_1" />
+        <item itemvalue="Application.Zero" />
         <item itemvalue="Application.FileIO" />
         <item itemvalue="Application.Common" />
-        <item itemvalue="Application.MouseInfo3_1" />
-        <item itemvalue="Application.Mouse" />
-        <item itemvalue="Application.CommonKey" />
       </list>
     </recent_temporary>
   </component>
@@ -428,45 +483,48 @@
       <workItem from="1565079851223" duration="18075000" />
       <workItem from="1565660024818" duration="11732000" />
       <workItem from="1565831187223" duration="27805000" />
+      <workItem from="1566000069998" duration="744000" />
+      <workItem from="1566006334217" duration="2327000" />
+      <workItem from="1566745116708" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57612000" />
+    <option name="totallyTimeSpent" value="61876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32937366" />
-      <window_info anchor="right" id="aiXcoder" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32899022" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32937366" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11965812" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.119335346" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14362851" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2673716" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32930514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2937365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42019543" />
+      <window_info anchor="right" id="aiXcoder" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,38 +535,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/MySoft/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/MouseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/MySoft/Java/jdk1.8.0_172/src.zip!/java/lang/StrictMath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4655">
@@ -531,34 +575,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/win32/W32APIOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinGDI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="157" column="42" lean-forward="true" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/GDI32.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/EncryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/win32/W32APIOptions.class" />
+    <entry file="jar://C:/repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinGDI.class" />
+    <entry file="jar://C:/repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/GDI32.class" />
     <entry file="jar://C:/MySoft/Java/jdk1.8.0_172/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -573,31 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinDef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="781" column="46" selection-start-line="781" selection-start-column="46" selection-end-line="781" selection-end-column="46" />
-          <folding>
-            <element signature="e#18807#18808#0" expanded="true" />
-            <element signature="e#18852#18853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/IntegerType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/Structure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinDef.class" />
+    <entry file="jar://C:/repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/IntegerType.class" />
+    <entry file="jar://C:/repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar!/com/sun/jna/Structure.class" />
     <entry file="jar://C:/MySoft/Java/jdk1.8.0_172/src.zip!/java/awt/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -616,10 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,59 +623,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/ComponentKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/ScreenCaptureUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/config.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#51#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -690,33 +635,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/CommonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/CommonBean.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/action/KeyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,19 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Judge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,33 +672,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,47 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2207">
-          <caret line="131" column="62" lean-forward="true" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2162">
-          <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1409">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="204" column="25" selection-start-line="204" selection-start-column="25" selection-end-line="204" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -852,17 +700,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinUser.class">
+    <entry file="jar://C:/repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinUser.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Pixel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2128">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/EncryptUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="133">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/MouseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/ComponentKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/ScreenCaptureUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+          <folding>
+            <marker date="1566101156825" expanded="true" signature="2:4613" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ifYesXY.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -871,32 +803,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="81" column="67" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
+        <state relative-caret-position="112">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#clickLMouseIfNo#0;class#Common#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Pixel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar!/com/sun/jna/platform/win32/WinDef.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="165">
+          <caret line="504" column="36" selection-start-line="504" selection-start-column="25" selection-end-line="504" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winTab.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="168" column="40" lean-forward="true" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setHookOn#0;class#ConfigHook#0" />
           </folding>
         </state>
       </provider>

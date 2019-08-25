@@ -154,9 +154,8 @@ public final class Common {
 	 *            蓝
 	 * @throws IOException
 	 */
-	public static void clickLMouseIfYes(Robot r, int x, int y, int red, int g,
+	public static void clickLMouseIfYes(Color c,Robot r, int x, int y, int red, int g,
 			int b, int delay, int num) throws Exception {
-		Color c = findScreenPixel(x, y);
 
 		int getRed = Math.abs(c.getRed() - red);
 		int getGreen = Math.abs(c.getGreen() - g);

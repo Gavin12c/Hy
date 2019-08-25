@@ -1,9 +1,9 @@
 package com.hy;
 
-import com.hy.service.Login;
+//import com.hy.service.Login;
 import com.hy.service.WinTab;
 import com.hy.service.Zero;
-import com.hy.service.other.Hero;
+//import com.hy.service.other.Hero;
 import com.hy.service.other.Skilled;
 import com.sun.jna.platform.win32.Kernel32;
 import com.sun.jna.platform.win32.User32;
@@ -83,7 +83,7 @@ public class KeyboardHook implements Runnable {
 					break;
 
 				case 114: // F3 选择英雄
-					new Thread(new Hero()).start();
+//					new Thread(new Hero()).start();
 					new Thread(new Skilled()).start();
 					break;
 
@@ -141,7 +141,7 @@ public class KeyboardHook implements Runnable {
 		new Thread(winTab).start(); // 窗口切换
 		zero = new Zero();
 		new Thread(zero).start(); // 脚本
-		new Thread(new Login()).start(); // 自动登录
+//		new Thread(new Login()).start(); // 自动登录
 		setHookOn();
 	}
 
