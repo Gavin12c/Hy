@@ -1,5 +1,7 @@
 package com.hy;
 
+import com.hy.utils.DosCommand;
+
 import java.awt.AWTException;
 import java.awt.Image;
 import java.awt.MenuItem;
@@ -14,6 +16,7 @@ public class Monitor {
 
 	public Monitor() {
 		new Thread(new KeyboardHook()).start(); // 监听
+		new Thread(new MouseHook()).start(); // 监听鼠标
 		final TrayIcon trayIcon; // 添加到系统托盘的托盘图标
 
 		if (SystemTray.isSupported()) {
@@ -26,20 +29,20 @@ public class Monitor {
 				public void actionPerformed(ActionEvent e) {
 					System.out.println("Exiting...");
 
-					String i1 = KeyboardHook.getProcessId("Game.jar");
-					String i2 = KeyboardHook.getProcessId("WinTab.jar");
-					String i3 = KeyboardHook.getProcessId("MouseInfo.jar");
+					String i1 = DosCommand.getProcessId("Game.jar");
+					String i2 = DosCommand.getProcessId("WinTab.jar");
+					String i3 = DosCommand.getProcessId("MouseInfo.jar");
 					System.out.println(i1);
 					System.out.println(i2);
 					System.out.println(i3);
 					if (null != i1) {
-						KeyboardHook.closeProcess(i1);
+						DosCommand.closeProcess(i1);
 					}
 					if (null != i2) {
-						KeyboardHook.closeProcess(i2);
+						DosCommand.closeProcess(i2);
 					}
 					if (null != i3) {
-						KeyboardHook.closeProcess(i3);
+						DosCommand.closeProcess(i3);
 					}
 					System.exit(0);
 				}

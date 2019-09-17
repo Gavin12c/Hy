@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
 import com.hy.Monitor;
 import com.hy.utils.Common;
 import com.hy.utils.FileIO;
-import com.hy.utils.ScreenCaptureUtils;
 import com.hy.utils.StringUtils;
 
 /**
@@ -83,7 +82,7 @@ public class Zero implements Runnable {
 	public static String[] io(String filePath) {
 		String t = FileIO.readFile(path + filePath);
 		// 过滤汉字
-		Pattern pattern = Pattern.compile("[^0-9,;;]");
+		Pattern pattern = Pattern.compile("[^0-9,;@()-^A-Z]"); //只保留数字、大写字母、,;@()-
 		Matcher matcher = pattern.matcher(t);
 		String all = matcher.replaceAll("");
 		return all.split(";");
@@ -98,11 +97,8 @@ public class Zero implements Runnable {
 		try {
 			if (list != null && list.size() > 0
 					&& Common.IfNo(1127, 630, 206, 207, 225)) {
-				Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
-				BufferedImage bi = ScreenCaptureUtils.getScreenshot(new Rectangle(0, 0, d.width, d.height));
 				for (Integer[] integers : list) {
-					Color c = Common.findScreenPixel(integers[0], integers[1]);
-					Common.clickLMouseIfYes(c,r, integers[0], integers[1],
+					Common.clickLMouseIfYes(r, integers[0], integers[1],
 							integers[2], integers[3], integers[4], 1, 0);
 				}
 			}

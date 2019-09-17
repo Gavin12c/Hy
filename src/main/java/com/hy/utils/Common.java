@@ -95,6 +95,14 @@ public final class Common {
 	}
 
 	/**
+	 * 全屏截图
+	 */
+	public static BufferedImage fullScreen() {
+		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
+		return ScreenCaptureUtils.getScreenshot(new Rectangle(0, 0, d.width, d.height));
+	}
+
+	/**
 	 * 判断是否点击坐标
 	 * 
 	 * @param x
@@ -154,8 +162,9 @@ public final class Common {
 	 *            蓝
 	 * @throws IOException
 	 */
-	public static void clickLMouseIfYes(Color c,Robot r, int x, int y, int red, int g,
+	public static void clickLMouseIfYes(Robot r, int x, int y, int red, int g,
 			int b, int delay, int num) throws Exception {
+		Color c = findScreenPixel(x, y);
 
 		int getRed = Math.abs(c.getRed() - red);
 		int getGreen = Math.abs(c.getGreen() - g);
@@ -185,8 +194,6 @@ public final class Common {
 	 * 如果颜色变化，则点击
 	 * 
 	 * @param r
-	 * @param x
-	 * @param y
 	 * @param xpan
 	 * @param ypan
 	 * @throws Exception
@@ -247,11 +254,8 @@ public final class Common {
 
 	}
 
-	public static boolean IfYes(int xpan, int ypan, int red, int g, int b)
-			throws IOException {
-		Color c;
-		try {
-			c = findScreenPixel(xpan, ypan);
+	public static boolean IfYes(int xpan, int ypan, int red, int g, int b) throws Exception {
+		Color c = findScreenPixel(xpan, ypan);
 			Thread.sleep(1);
 			int getRed = Math.abs(c.getRed() - red);
 			int getGreen = Math.abs(c.getGreen() - g);
@@ -259,14 +263,18 @@ public final class Common {
 			if (getRed < 10 && getGreen < 10 && getBlue < 10) {
 				return true;
 			}
-			c = null;
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 		return false;
-
 	}
 
-
+	public static boolean IfYes(int xpan, int ypan,BufferedImage bi, Color toColor) throws Exception {
+		Color nowColor = new Color(16777216 + bi.getRGB(xpan, ypan));
+		int getRed = Math.abs(nowColor.getRed() - toColor.getRed());
+		int getGreen = Math.abs(nowColor.getGreen() - toColor.getGreen());
+		int getBlue = Math.abs(nowColor.getBlue() - toColor.getBlue());
+		if (getRed < 10 && getGreen < 10 && getBlue < 10) {
+			return true;
+		}
+		return false;
+	}
 
 }

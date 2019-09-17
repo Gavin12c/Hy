@@ -19,20 +19,20 @@ public class Skilled implements Runnable {
 
 	@Override
 	public void run() {
-		try {
-			while (flag) {
-
-				// q e r t 9 0
-				String key = FileIO.readFile(path + "/key.txt");
-
-				// 对局操作
-				if (Common.IfYes(1226, 250, 14, 179, 0)) {
-					CommonKey.insertStr(key); // 技能释放
-				}
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			while (flag) {
+//
+//				// q e r t 9 0
+//				String key = FileIO.readFile(path + "/key.txt");
+//
+//				// 对局操作
+////				if (Common.IfYes(1226, 250, 14, 179, 0)) {
+////					CommonKey.insertStr(key); // 技能释放
+////				}
+//			}
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 
 	}
 

@@ -12,4 +12,5 @@ import java.util.List;
 public class Action implements Serializable {
     private List<MouseEvent> mouseEventList;
     private List<KeyEvent> keyEventList;
+
 }

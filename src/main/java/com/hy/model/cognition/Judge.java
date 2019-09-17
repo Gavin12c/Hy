@@ -1,5 +1,6 @@
 package com.hy.model.cognition;
 
+import com.hy.model.unit.Pixel;
 import lombok.Data;
 
 import java.io.Serializable;
