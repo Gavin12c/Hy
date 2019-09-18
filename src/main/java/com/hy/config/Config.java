@@ -2,8 +2,6 @@ package com.hy.config;
 
 import com.google.gson.reflect.TypeToken;
 import com.hy.model.HyModel;
-import com.hy.model.action.Action;
-import com.hy.model.cognition.Cognition;
 import com.hy.utils.FileIO;
 import com.hy.utils.JsonUtil;
 import lombok.Data;

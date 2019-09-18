@@ -19,14 +19,13 @@ public class FileIO {
 				while ((readIndex = in.read(buf)) != -1) {
 					out.write(buf, 0, readIndex);
 				}
-
 				in.close();
 				return new String(out.toByteArray(), Charset.forName("UTF-8"));
 			}else {
-				System.out.println("找不到指定的文件 : " + filePath);
+				System.out.println("path not find : " + filePath);
 			}
 		} catch (Exception e) {
-			System.out.println("读取文件内容出错");
+			System.out.println("read file error");
 			throw new RuntimeException(e);
 		}
 		return "";
@@ -51,12 +50,12 @@ public class FileIO {
 	}
 
 	/**
-	 * 写入txt文件
+	 * 写入Action-txt文件
 	 */
-	public static void wirteTxtMore(List<Pixel> pixelList,StringBuffer keyBuff) {
+	public static void wirteTxtAction(List<Pixel> pixelList,StringBuffer keyBuff) {
 		StringBuffer sBuffer = new StringBuffer();
 		try {
-			File file = new File(System.getProperty("user.dir")+ "/ifYesXY.txt");
+			File file = new File(System.getProperty("user.dir")+ "/Action.txt");
 			Writer writer = new BufferedWriter(new OutputStreamWriter(
 					new FileOutputStream(file, true), "UTF-8"));
 			for (int i = 0; i < pixelList.size(); i++) {
@@ -75,6 +74,24 @@ public class FileIO {
 			sBuffer.append("\r\n");
 			sBuffer.append(keyBuff);
 			writer.write(new String(sBuffer.toString().getBytes("GBK"),"utf8"));
+			writer.flush();
+			writer.close();
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+
+	/**
+	 * 写入WinTab-txt文件
+	 */
+	public static void wirteTxtWintab(StringBuffer content) {
+		try {
+			File file = new File(System.getProperty("user.dir")+ "/WinTab.txt");
+			Writer writer = new BufferedWriter(new OutputStreamWriter(
+					new FileOutputStream(file, false), "UTF-8"));
+//			writer.write(new String(content.toString().getBytes("GBK"),"UTF-8"));
+			writer.write(content.toString()); //读取的时候已经是UTF8
 			writer.flush();
 			writer.close();
 		} catch (Exception e1) {

@@ -1,5 +1,7 @@
 package com.hy;
 
+import com.hy.gateway.KeyboardHook;
+import com.hy.gateway.MouseHook;
 import com.hy.utils.DosCommand;
 
 import java.awt.AWTException;

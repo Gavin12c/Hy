@@ -19,7 +19,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author John 脚本开启
+ * @author John 脚本2.0开启
  */
 public class One implements Runnable {
 
@@ -40,7 +40,7 @@ public class One implements Runnable {
 
 	public void run() {
 		try {
-			String[] oneSplit = io("/ifYesXY.txt");
+			String[] oneSplit = io("/Action.txt");
 			int delay = (StringUtils.isEmpty(oneSplit[0])) ? 2000 : Integer.parseInt(oneSplit[0]); //第一个参数为 间隔时间 ， 默认2秒
 			System.out.println("ifYes执行间隔： " + delay + " 秒");
 			List<HyModel> hyList = new ArrayList<>(); // 存储单元

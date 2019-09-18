@@ -1,5 +1,7 @@
 package com.hy.service;
 
+import com.hy.config.PathConfig;
+import com.hy.utils.StringUtils;
 import com.sun.jna.platform.win32.User32;
 import com.sun.jna.platform.win32.WinDef.HWND;
 import com.sun.jna.platform.win32.WinUser;
@@ -13,7 +15,6 @@ import static com.sun.jna.platform.win32.WinUser.SW_HIDE;
 public class WinTab implements Runnable {
 
 	private volatile static boolean flag = true;
-	private int delay = 3000;// 切换时间
 
 	public void stop() {
 		flag = false;
@@ -23,11 +24,10 @@ public class WinTab implements Runnable {
 		flag = true;
 	}
 
-	// 装配文件路径
-	final static String path = System.getProperty("user.dir");
 
-	static String[] io = io("/winTab.txt");
+	static String[] io = PathConfig.io("/WinTab.txt");
 	static String[] split = null;
+	static int delay = StringUtils.isEmpty(io[0]) ? 2000 : Integer.parseInt(io[0].trim());
 
 	/**
 	 * @param delay
@@ -44,26 +44,24 @@ public class WinTab implements Runnable {
 		}
 	}
 
-	public static String[] io(String filePath) {
-		String t = FileIO.readFile(path + filePath);
-		return t.split(";");
-	}
 
 	public static synchronized void tab(String name, int delay) throws InterruptedException {
-		HWND hwnd = User32.INSTANCE.FindWindow(null, name);
+		String[] windowAndRect = name.split("&");
+		HWND hwnd = User32.INSTANCE.FindWindow(null, windowAndRect[0]);
 		if (hwnd == null) {
-			System.out.println("窗口不存在");
+			System.out.println("window not find");
 			Thread.sleep(delay);
 		} else {
 			User32.INSTANCE.ShowWindow(hwnd, WinUser.SW_RESTORE); // SW_RESTORE
 																	// 9 窗口恢复
 			User32.INSTANCE.SetForegroundWindow(hwnd); // bring to front
-			User32.INSTANCE.MoveWindow(hwnd, 230, 50, 1063, 608, true);
+			String[] rect = windowAndRect[1].split("-");
+			User32.INSTANCE.MoveWindow(hwnd, Integer.parseInt(rect[0].trim()), Integer.parseInt(rect[1].trim()), Integer.parseInt(rect[2].trim()), Integer.parseInt(rect[3].trim()), true);
 			Thread.sleep(delay);
-			if (split.length > 1) {
+			if (WinTab.split.length > 1) {
 				User32.INSTANCE.ShowWindow(hwnd, WinUser.SW_MINIMIZE);// 窗口最小化
 			}
-			System.out.println(name + " 窗口");
+			System.out.println(name + " window");
 		}
 	}
 
