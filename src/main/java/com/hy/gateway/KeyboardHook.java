@@ -5,6 +5,7 @@ import com.hy.frame.CommandFrame;
 import com.hy.frame.EditFrame;
 import com.hy.model.unit.Pixel;
 import com.hy.model.drawing.DrawingBoard;
+import com.hy.service.MouseInfo3_1;
 import com.hy.service.One;
 import com.hy.service.WinTab;
 import com.hy.utils.Common;
@@ -26,7 +27,8 @@ public class KeyboardHook implements Runnable {
 	private static WinUser.HHOOK hhk;
 	private String path = System.getProperty("user.dir");
 	private Process game = null;
-	private Process mouseInfo = null;
+	private MouseInfo3_1 mouseInfo = null;
+
 
 	private volatile boolean oneFlag = true;
 	private volatile boolean winTabFlag = true;
@@ -105,16 +107,11 @@ public class KeyboardHook implements Runnable {
 								break;
 							case 117: // F6 打开、关闭辅助工具
 								if (null != getMouseInfo()) {
-									String id = DosCommand.getProcessId("MouseInfo.jar");
-									setMouseInfo(null); // 重置开启按钮
-									if (DosCommand.closeProcess(id)) {
-										System.out.println("关闭坐标工具");
-									}
+									mouseInfo.dispose();
+									mouseInfo = null;
 								}else{
-									Process mouseInfo = DosCommand.exe("cmd.exe /C " + path
-											+ "\\MouseInfo.jar");
+									mouseInfo = new MouseInfo3_1();
 									setMouseInfo(mouseInfo);
-									System.out.println("打开坐标工具");
 								}
 								break;
 						}
@@ -268,11 +265,11 @@ public class KeyboardHook implements Runnable {
 		this.game = game;
 	}
 
-	public Process getMouseInfo() {
+	public MouseInfo3_1 getMouseInfo() {
 		return mouseInfo;
 	}
 
-	public void setMouseInfo(Process mouseInfo) {
+	public void setMouseInfo(MouseInfo3_1 mouseInfo) {
 		this.mouseInfo = mouseInfo;
 	}
 

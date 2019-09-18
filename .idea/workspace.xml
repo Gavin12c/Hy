@@ -2,66 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db324e7f-1bfd-489d-a2d8-b28479c50822" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hy/config/PathConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hy/frame/CommandFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ifYesXY.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/MouseHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/gateway/MouseHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/frame/CircleJPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/frame/UnTitleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/frame/EditFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/frame/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/gateway/InputConfigHook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/action/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/action/KeyEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/action/MouseEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Cognition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Judge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/model/drawing/DrawingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/model/drawing/DrawingBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/other/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/other/Skilled.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/utils/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/KeyboardHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/MouseHook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/MouseHook$LowLevelMouseProc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/MouseHook$MOUSEHOOKSTRUCT$ByReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/MouseHook$MOUSEHOOKSTRUCT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/MouseHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/config/Config$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/config/Config$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/CircleJPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/UnTitleFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/UnTitleFrame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/UnTitleFrame$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/UnTitleFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/frame/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/InputConfigHook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/InputConfigHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/action/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/action/KeyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/action/MouseEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/cognition/Cognition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/cognition/Judge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/model/drawing/DrawingBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/model/drawing/DrawingBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/One.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/service/One.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/WinTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/service/WinTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/other/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/other/Skilled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/utils/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/utils/FileIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/utils/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/utils/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/MouseInfo3_1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/service/MouseInfo3_1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/service/MouseInfo3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/service/MouseInfo3_1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/drawing.data" beforeDir="false" afterPath="$PROJECT_DIR$/temp/drawing.data" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,60 +21,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MouseInfo3_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="105" column="23" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="KeyboardHook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-446">
-              <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+            <state relative-caret-position="393">
+              <caret line="118" column="51" lean-forward="true" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#clearAllBoard#0;class#KeyboardHook#0" />
                 <element signature="method#setHookOn#0;class#KeyboardHook#0" />
                 <element signature="method#setHookOff#0;class#KeyboardHook#0" />
+                <element signature="e#7640#7641#0" expanded="true" />
+                <element signature="e#7663#7664#0" expanded="true" />
+                <element signature="e#7716#7717#0" expanded="true" />
+                <element signature="e#7749#7750#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WinTab.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java">
+      <file leaf-file-name="One.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/One.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawingBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/drawing/DrawingBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MouseHook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/MouseHook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-              <folding>
-                <element signature="e#5062#5063#0" expanded="true" />
-                <element signature="e#5099#5100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="532">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -143,8 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>manager</find>
-      <find>reJrameKeyList</find>
       <find>frame</find>
       <find>getFieldOrder</find>
       <find>unTitleFrame</find>
@@ -173,6 +97,8 @@
       <find>wirteTxtAction</find>
       <find>contentPanel</find>
       <find>readFile</find>
+      <find>getMouseInfo</find>
+      <find>mouseInfo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -191,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/Pixel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/Judge.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/Cognition.java" />
@@ -207,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hy/frame/JavaJF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/frame/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/frame/CircleJPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/frame/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/cognition/Pixel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/VkCodeMap.java" />
@@ -240,8 +164,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/model/drawing/DrawingBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/gateway/MouseHook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java" />
+        <option value="$PROJECT_DIR$/Action.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" />
       </list>
     </option>
   </component>
@@ -299,9 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,11 +236,6 @@
             <path>
               <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,24 +258,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
@@ -374,57 +275,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="drawing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,12 +454,13 @@
       <workItem from="1568598799343" duration="47300000" />
       <workItem from="1568769815950" duration="3393000" />
       <workItem from="1568796777545" duration="200000" />
-      <workItem from="1568797129218" duration="2190000" />
+      <workItem from="1568797129218" duration="2686000" />
+      <workItem from="1568799953455" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152863000" />
+    <option name="totallyTimeSpent" value="154503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
@@ -617,19 +476,19 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.19711539" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3315335" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3963283" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.22329059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.22649573" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.20512821" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39416847" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -650,20 +509,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/FileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/config/PathConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -834,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/One.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/Zero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -911,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WinTab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -925,13 +756,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -972,25 +796,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/model/VkCodeMap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/WinTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+        <state relative-caret-position="377">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Action.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WinTab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/One.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/MouseInfo3_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-446">
-          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+        <state relative-caret-position="393">
+          <caret line="118" column="51" lean-forward="true" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#clearAllBoard#0;class#KeyboardHook#0" />
             <element signature="method#setHookOn#0;class#KeyboardHook#0" />
             <element signature="method#setHookOff#0;class#KeyboardHook#0" />
+            <element signature="e#7640#7641#0" expanded="true" />
+            <element signature="e#7663#7664#0" expanded="true" />
+            <element signature="e#7716#7717#0" expanded="true" />
+            <element signature="e#7749#7750#0" expanded="true" />
           </folding>
         </state>
       </provider>

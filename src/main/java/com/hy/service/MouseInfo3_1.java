@@ -95,7 +95,6 @@ public class MouseInfo3_1 extends JFrame implements KeyListener {
 					}
 				}
 			}, 100, 100);
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -198,6 +197,40 @@ public class MouseInfo3_1 extends JFrame implements KeyListener {
 		value_b.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
 		value_b.setBounds(182, 108, 66, 31);
 		contentPanel.add(value_b);
+
+
+
+
+		textField1.addKeyListener(this);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		setAlwaysOnTop(true);
+
+		// info_frame.setBounds(0,0,300, 216);
+
+		Timer timer = new Timer();
+		timer.schedule(new TimerTask() {
+			@Override
+			public void run() {
+
+				Point point = java.awt.MouseInfo.getPointerInfo()
+						.getLocation();
+				// System.out.println("Location:x=" + point.x + ", y=" +
+				// point.y);
+					value_x.setText("" + point.x);
+					value_y.setText("" + point.y);
+				try {
+					Color c = getScreenPixel(point.x, point.y);
+					// System.out.println("ºì£º"+c.getRed()+" ÂÌ£º"+c.getGreen()+" À¶£º"+c.getBlue());
+					value_r.setText("" + c.getRed());
+					value_g.setText("" + c.getGreen());
+					value_b.setText("" + c.getBlue());
+					value_RGB.setText("" + c.getRGB());
+				} catch (AWTException e) {
+					e.printStackTrace();
+				}
+			}
+		}, 100, 100);
 
 	}
 
