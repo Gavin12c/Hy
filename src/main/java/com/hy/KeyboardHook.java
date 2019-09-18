@@ -35,7 +35,6 @@ public class KeyboardHook implements Runnable {
 	private Zero zero;// 通用脚本
 
 	private List<Pixel> colorList = new ArrayList<>();
-	private StringBuffer keyBuff = new StringBuffer(); // 触发按键
 	private static UnTitleFrame unTitleFrame;
 	private volatile boolean  flag = false; //切换开关 false->标识
 	private volatile boolean  hideFlag = true; //切换开关 false->标识
@@ -131,6 +130,7 @@ public class KeyboardHook implements Runnable {
 								break;
 							case 119: // F8 退回
 								if(flag){ //true -》key
+									StringBuffer keyBuff = (StringBuffer) DrawingBoard.findCache(KeyConstants.KEYBUFF, StringBuffer.class); //获取缓存keyBuff
 									if(keyBuff.length()>0){
 										keyBuff.deleteCharAt(keyBuff.length()-1);
 									}
@@ -186,6 +186,7 @@ public class KeyboardHook implements Runnable {
 			KeyboardHook.this.colorList.clear();
 			DrawingBoard.delCache(KeyConstants.COLOR);
 		}
+		StringBuffer keyBuff = (StringBuffer) DrawingBoard.findCache(KeyConstants.KEYBUFF, StringBuffer.class); //获取缓存keyBuff
 		if(null == keyBuff || keyBuff.length()>0){
 			keyBuff.delete(0,keyBuff.length());
 			DrawingBoard.delCache(KeyConstants.KEYBUFF);
@@ -216,7 +217,9 @@ public class KeyboardHook implements Runnable {
 		for (char c :keylist.toCharArray()) {
 			if((int)c == code){
 				this.flag = true;
-				keyBuff.append(c);
+//				keyBuff.append(c);
+				StringBuffer keyBuff = (StringBuffer) DrawingBoard.findCache(KeyConstants.KEYBUFF, StringBuffer.class); //获取缓存keyBuff
+				DrawingBoard.updateCache(KeyConstants.KEYBUFF, keyBuff.append(c));//添加缓存keyBuff
 				DrawingBoard.updateCache(KeyConstants.KEYBUFF,keyBuff);//更新画板keybuff
 				DrawingBoard.reBoardKeyList();
 				break;

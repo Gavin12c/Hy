@@ -41,6 +41,29 @@ public final class Common {
 		r.delay(delay);
 	}
 
+	/**
+	 * 鼠标单击(左击),双击就连续调用
+	 *
+	 * @param x
+	 *            x坐标
+	 * @param y
+	 *            y坐标
+	 * @param type  左键InputEvent.BUTTON1_DOWN_MASK ， 右键 InputEvent.BUTTON3_DOWN_MASK   中键2
+	 * @param delay
+	 *            该操作后的延迟时间
+	 */
+	public synchronized static void clickLMouse(Robot r, int x, int y,int type, int delay) {
+		r.mouseMove(x, y);
+		r.mousePress(type);
+		/*
+		 * Random random = new Random(); double v = random.nextDouble(); v = 300
+		 * + v*300;
+		 */
+		r.delay(1);
+		r.mouseRelease(type);
+		r.delay(delay);
+	}
+
 	// 测试
 	public static void main(String[] args) {
 //		Robot r;

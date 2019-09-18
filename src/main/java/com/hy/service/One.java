@@ -6,10 +6,12 @@ import com.hy.model.unit.MousePointEvent;
 import com.hy.model.unit.Pixel;
 import com.hy.model.unit.UnitEvent;
 import com.hy.utils.Common;
+import com.hy.utils.CommonKey;
 import com.hy.utils.FileIO;
 import com.hy.utils.StringUtils;
 
 import java.awt.*;
+import java.awt.event.InputEvent;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,55 +40,27 @@ public class One implements Runnable {
 
 	public void run() {
 		try {
-			// 判断是rbg颜色，就点
-			String[] split3 = io("/ifYesXY.txt");
-			// LinkedList add,del 有优势,arraylist 适用查找
-//			list3 = new ArrayList<>();
-			for (int i = 1; i < split3.length; i++) {
-				String[] smap3 = split3[i].split(",");
-				Integer[] point = { Integer.parseInt(smap3[0]),
-						Integer.parseInt(smap3[1]), Integer.parseInt(smap3[2]),
-						Integer.parseInt(smap3[3]), Integer.parseInt(smap3[4]) };
-				list3.add(point);
-			}
-			Robot r = new Robot();
-			int delay;
-			System.out.println("ifYes执行间隔： " + split3[0] + " 秒");
-			if (StringUtils.isEmpty(split3[0])) {
-				delay = 3000;
-			} else {
-				delay = Integer.parseInt(split3[0]);
-			}
-			while (flag) {
-				ifYesXY(getList3(), r);
-				// System.out.println(1);
-				Thread.sleep(delay);
+			String[] oneSplit = io("/ifYesXY.txt");
+			int delay = (StringUtils.isEmpty(oneSplit[0])) ? 2000 : Integer.parseInt(oneSplit[0]); //第一个参数为 间隔时间 ， 默认2秒
+			System.out.println("ifYes执行间隔： " + delay + " 秒");
+			List<HyModel> hyList = new ArrayList<>(); // 存储单元
+			for (int i = 1; i < oneSplit.length; i++) {
+				String[] unit = oneSplit[i].split("&"); //oneSplit[i]为一个单元 &分为-> 判断 ： 操作
+				HyModel hyModel = new HyModel();
+				hyModel.setPixelList(changePixelList(unit[0].split("-")));// [0] 判断
+				hyModel.setHandleList(handleStr2List(unit[1]));// [1] 操作
+				hyList.add(hyModel);
 			}
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public static void main(String[] args) {
-		String[] oneSplit = io("/ifYesXY.txt");
-		int delay = (StringUtils.isEmpty(oneSplit[0])) ? 2000 : Integer.parseInt(oneSplit[0]); //第一个参数为 间隔时间 ， 默认2秒
-		System.out.println("ifYes执行间隔： " + delay + " 秒");
-		List<HyModel> hyList = new ArrayList<>(); // 存储单元
-		for (int i = 1; i < oneSplit.length; i++) {
-			String[] unit = oneSplit[i].split("&"); //oneSplit[i]为一个单元 &分为-> 判断 ： 操作
-			HyModel hyModel = new HyModel();
-			hyModel.setPixelList(changePixelList(unit[0].split("-")));// [0] 判断
-			hyModel.setHandleList(handleStr2List(unit[1]));// [1] 操作
-			hyList.add(hyModel);
-		}
-
-		try {
-			BufferedImage bi = Common.fullScreen(); //全屏截图
-			for (HyModel hyModel : hyList) {
-				if(unitJudge(bi,hyModel.getPixelList())){ //判断成立，则执行操作
-					unitHandle(hyModel.getHandleList()); //执行操作
+			while(flag){
+				BufferedImage bi = Common.fullScreen(); //全屏截图
+				Robot r = new Robot();
+				for (HyModel hyModel : hyList) {
+					if(unitJudge(bi,hyModel.getPixelList())){ //判断成立，则执行操作
+						unitHandle(r,hyModel.getHandleList()); //执行操作
+					}
 				}
+				Thread.sleep(delay);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -134,7 +108,7 @@ public class One implements Runnable {
 				keyList.add(action);
 				sBuffer.delete(0,sBuffer.length());
 			}else if(!flag){
-				action.setKey(""+c);
+				action.setKey(c);
 				keyList.add(action);
 			}else if(flag){
 				sBuffer.append(c);
@@ -148,12 +122,18 @@ public class One implements Runnable {
 	/**
 	 *  单元操作
 	 */
-	public static void unitHandle(List<Action> handleList){
+	public static void unitHandle(Robot r,List<Action> handleList) throws InterruptedException {
 		for (Action a : handleList) {
-			if(null != a.getKey()){
-
+			if('\0' != a.getKey()){ //char 非空判断
+				CommonKey.sendChar2(a.getKey()); //触发按键
 			}
 			if(null != a.getMousePointEvent()){
+				MousePointEvent mousePointEvent = a.getMousePointEvent();
+				if (1 == mousePointEvent.getType()) {//左键
+					Common.clickLMouse(r, mousePointEvent.getX(), mousePointEvent.getY(), InputEvent.BUTTON1_DOWN_MASK, 1);
+				} else if(2 == mousePointEvent.getType()) {//右键
+					Common.clickLMouse(r, mousePointEvent.getX(), mousePointEvent.getY(), InputEvent.BUTTON3_DOWN_MASK, 1);
+				}
 
 			}
 		}
