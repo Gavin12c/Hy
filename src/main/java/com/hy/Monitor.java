@@ -13,6 +13,8 @@ import java.awt.Toolkit;
 import java.awt.TrayIcon;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.net.URL;
 
 public class Monitor {
 
@@ -22,10 +24,10 @@ public class Monitor {
 		final TrayIcon trayIcon; // 添加到系统托盘的托盘图标
 
 		if (SystemTray.isSupported()) {
+			try {
 
-			SystemTray tray = SystemTray.getSystemTray(); // 任务栏状态区域(桌面的系统托盘)
-			Image image = Toolkit.getDefaultToolkit().getImage(
-					".//lib//king.png");
+			SystemTray tray = SystemTray.getSystemTray(); // 任务栏状态区域(桌面的系统托盘)dd
+			Image image = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icon.jpg").getPath());
 
 			ActionListener exitListener = new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
@@ -57,12 +59,14 @@ public class Monitor {
 			defaultItem.addActionListener(exitListener);
 			popup.add(defaultItem);
 
-			trayIcon = new TrayIcon(image, "王者辅助", popup); // 创建带指定图像、工具提示和弹出菜单的
+			String iconName = new String("Common Script".getBytes("GBK"),"UTF-8");
+
+			trayIcon = new TrayIcon(image, iconName, popup); // 创建带指定图像、工具提示和弹出菜单的
 															// TrayIcon
 
 			ActionListener actionListener = new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					trayIcon.displayMessage("", "程序已启动",
+					trayIcon.displayMessage("", "The program is running",
 							TrayIcon.MessageType.NONE); // 在托盘图标附近显示弹出消息。
 														// [INFO提示信息 ERROR错误信息
 														// NONE普通信息 WARNING警告信息
@@ -74,9 +78,9 @@ public class Monitor {
 			trayIcon.setImageAutoSize(true); // 设置自动调整大小的属性。
 			trayIcon.addActionListener(actionListener);
 
-			try {
-				tray.add(trayIcon);
-			} catch (AWTException e1) {
+
+			tray.add(trayIcon);
+			} catch (Exception e1) {
 				e1.printStackTrace();
 			}
 

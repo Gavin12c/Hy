@@ -11,4 +11,6 @@ public class KeyConstants {
 
     public static final String COLOR = "colorList"; //标点
     public static final String KEYBUFF = "keyBuff"; //按键
+
+    public static final String MOUSE_INFO = "mouseInfo"; //按键
 }

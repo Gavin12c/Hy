@@ -33,7 +33,7 @@ public class ScreenCaptureUtils {
         BufferedImage screenshot = getScreenshot(new Rectangle(0, 0, d.width, d.height));
         // 写入文件
         try {
-            ImageIO.write(screenshot, "jpg", new File("D://123.jpg"));
+            ImageIO.write(screenshot, "jpg", new File("D://icon.jpg"));
             System.out.println("截屏成功！");
         } catch (IOException e) {
             // TODO Auto-generated catch block

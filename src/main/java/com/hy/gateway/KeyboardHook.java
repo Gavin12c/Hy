@@ -5,7 +5,6 @@ import com.hy.frame.CommandFrame;
 import com.hy.frame.EditFrame;
 import com.hy.model.unit.Pixel;
 import com.hy.model.drawing.DrawingBoard;
-import com.hy.service.MouseInfo3_1;
 import com.hy.service.One;
 import com.hy.service.WinTab;
 import com.hy.utils.Common;
@@ -27,12 +26,11 @@ public class KeyboardHook implements Runnable {
 	private static WinUser.HHOOK hhk;
 	private String path = System.getProperty("user.dir");
 	private Process game = null;
-	private MouseInfo3_1 mouseInfo = null;
-
 
 	private volatile boolean oneFlag = true;
 	private volatile boolean winTabFlag = true;
-//	private volatile boolean editFlag = ; //编辑开关
+
+	private volatile boolean mouseInfoFlag = false;
 	private WinTab winTab;// 窗口切换
 	private One one;// 通用脚本
 
@@ -106,12 +104,15 @@ public class KeyboardHook implements Runnable {
 								new CommandFrame();
 								break;
 							case 117: // F6 打开、关闭辅助工具
-								if (null != getMouseInfo()) {
-									mouseInfo.dispose();
-									mouseInfo = null;
+								if (mouseInfoFlag = !mouseInfoFlag) {
+									Process mouseInfo = DosCommand.exe("cmd.exe /C " + path
+											+ "\\MouseInfo.jar");
+									System.out.println("open MouseInfo.jar");
 								}else{
-									mouseInfo = new MouseInfo3_1();
-									setMouseInfo(mouseInfo);
+									String id = DosCommand.getProcessId("MouseInfo.jar");
+									if (DosCommand.closeProcess(id)) {
+										System.out.println("close MouseInfo.jar");
+									}
 								}
 								break;
 						}
@@ -263,14 +264,6 @@ public class KeyboardHook implements Runnable {
 
 	public void setGame(Process game) {
 		this.game = game;
-	}
-
-	public MouseInfo3_1 getMouseInfo() {
-		return mouseInfo;
-	}
-
-	public void setMouseInfo(MouseInfo3_1 mouseInfo) {
-		this.mouseInfo = mouseInfo;
 	}
 
 	public List<Pixel> getColorList() {
