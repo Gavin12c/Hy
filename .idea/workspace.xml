@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db324e7f-1bfd-489d-a2d8-b28479c50822" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/config/KeyConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/gateway/KeyboardHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hy/utils/ScreenCaptureUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/ScreenCaptureUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/config/KeyConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/config/KeyConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/gateway/KeyboardHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hy/utils/ScreenCaptureUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hy/utils/ScreenCaptureUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/drawing.data" beforeDir="false" afterPath="$PROJECT_DIR$/temp/drawing.data" afterDir="false" />
-    </list>
+    <list default="true" id="db324e7f-1bfd-489d-a2d8-b28479c50822" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +15,8 @@
       <file leaf-file-name="Monitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="68" column="73" lean-forward="true" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
+            <state relative-caret-position="57">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -470,12 +456,12 @@
       <workItem from="1568799953455" duration="1178000" />
       <workItem from="1568856208678" duration="5691000" />
       <workItem from="1568862179446" duration="1050000" />
-      <workItem from="1568863662497" duration="591000" />
+      <workItem from="1568863662497" duration="990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161869000" />
+    <option name="totallyTimeSpent" value="162268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
@@ -858,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="68" column="73" lean-forward="true" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
+        <state relative-caret-position="57">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
