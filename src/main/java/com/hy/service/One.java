@@ -14,6 +14,7 @@ import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -46,6 +47,9 @@ public class One implements Runnable {
 			List<HyModel> hyList = new ArrayList<>(); // 存储单元
 			for (int i = 1; i < oneSplit.length; i++) {
 				String[] unit = oneSplit[i].split("&"); //oneSplit[i]为一个单元 &分为-> 判断 ： 操作
+				System.out.println(Arrays.toString(unit));
+				System.out.println(unit[0]);
+				System.out.println(unit[1]);
 				HyModel hyModel = new HyModel();
 				hyModel.setPixelList(changePixelList(unit[0].split("-")));// [0] 判断
 				hyModel.setHandleList(handleStr2List(unit[1]));// [1] 操作
@@ -155,7 +159,7 @@ public class One implements Runnable {
 	public static String[] io(String filePath) {
 		String t = FileIO.readFile(path + filePath);
 		// 过滤汉字
-		Pattern pattern = Pattern.compile("[^0-9,;@()-^A-Z]"); //只保留数字、大写字母、,;@()-
+		Pattern pattern = Pattern.compile("[^0-9,& ;@()-^A-Z]"); //只保留数字、大写字母、,;@()-
 		Matcher matcher = pattern.matcher(t);
 		String all = matcher.replaceAll("");
 		return all.split(";");

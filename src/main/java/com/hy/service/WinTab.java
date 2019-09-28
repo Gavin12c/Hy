@@ -55,8 +55,11 @@ public class WinTab implements Runnable {
 			User32.INSTANCE.ShowWindow(hwnd, WinUser.SW_RESTORE); // SW_RESTORE
 																	// 9 窗口恢复
 			User32.INSTANCE.SetForegroundWindow(hwnd); // bring to front
-			String[] rect = windowAndRect[1].split("-");
-			User32.INSTANCE.MoveWindow(hwnd, Integer.parseInt(rect[0].trim()), Integer.parseInt(rect[1].trim()), Integer.parseInt(rect[2].trim()), Integer.parseInt(rect[3].trim()), true);
+			if(windowAndRect.length > 1){
+				String[] rect = windowAndRect[1].split("-");
+				User32.INSTANCE.MoveWindow(hwnd, Integer.parseInt(rect[0].trim()), Integer.parseInt(rect[1].trim()), Integer.parseInt(rect[2].trim()), Integer.parseInt(rect[3].trim()), true);
+
+			}
 			Thread.sleep(delay);
 			if (WinTab.split.length > 1) {
 				User32.INSTANCE.ShowWindow(hwnd, WinUser.SW_MINIMIZE);// 窗口最小化
